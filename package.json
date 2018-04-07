@@ -1,0 +1,24 @@
+{
+  "name": "knowledgemap",
+  "version": "1.0.0",
+  "description": "Generate tree structure based on knowledge relevancy",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverz/knowledgeMap.git"
+  },
+  "keywords": [
+    "knowledge",
+    "map",
+    "tree"
+  ],
+  "author": "Lever",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leverz/knowledgeMap/issues"
+  },
+  "homepage": "https://github.com/leverz/knowledgeMap#readme"
+}
