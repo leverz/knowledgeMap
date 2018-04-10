@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Demo</title>
+    <style>
+        .node circle {
+            fill: #999;
+        }
+
+        .node text {
+            font: 10px sans-serif;
+        }
+
+        .node--internal circle {
+            fill: #555;
+        }
+
+        .node--internal text {
+            text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+        }
+
+        .link {
+            fill: none;
+            stroke: #555;
+            stroke-opacity: 0.4;
+            stroke-width: 1.5px;
+        }
+    </style>
+</head>
+<body>
+<svg width="960" height="2000"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+</body>
+</html>
