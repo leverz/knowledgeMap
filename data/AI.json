@@ -1,0 +1,134 @@
+{
+  "name": "知识图谱",
+  "children": [
+    {
+      "name": "知识表示",
+      "children": [
+        { "name": "逻辑符号 14" },
+        { "name": "万维网 15" },
+        {
+          "name": "表示学习",
+          "children": [
+            { "name": "张量重构 16、17" },
+            {
+              "name": "势能函数 18",
+              "children": [
+                {
+                  "name": "TransE 19",
+                  "children": [
+                    { "name": "向量化表示模型 22" },
+                    { "name": "外部信息 23 24 25" },
+                    { "name": "逻辑推理规则 26" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }]
+    },
+    {
+      "name": "知识图谱构建",
+      "children": [
+        {
+          "name": "构建方式",
+          "children": [
+            {
+              "name": "人工",
+              "children": [
+                { "name": "wordNet1" },
+                { "name": "Cyc2" }
+              ]
+            },
+            {
+              "name": "群体智能",
+              "children": [
+                { "name": "DBpedia 3、4" },
+                { "name":  "YAGO 5、6"},
+                { "name": "Freebase 7" },
+                { "name": "XLORE 8" },
+                { "name": "Zhishi.me 9" }
+              ]
+            },
+            {
+              "name": "网络链接",
+              "children": [
+                { "name": "Linked Date 10" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "互联网资源",
+          "children": [
+            {
+              "name": "概念层次学习",
+              "children": [
+                { "name": "启发式规则" },
+                { "name": "统计 29" }
+              ]
+            },
+            {
+              "name": "事实学习",
+              "children": [
+                {
+                  "name": "有监督"
+                },
+                {
+                  "name": "半监督",
+                  "children": [
+                    {
+                      "name": "语义漂移、自扩展 30、31"
+                    },
+                    {
+                      "name": "噪音、弱监督 32、33"
+                    }
+                  ]
+                },
+                { "name": "无监督 11" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结构化资源",
+          "children": [
+            {
+              "name": "语义集成",
+              "children": [
+                {
+                  "name": "基于文本"
+                },
+                {
+                  "name": "基于结构",
+                  "children": [
+                    { "name": "SimRank 34" },
+                    { "name": "相似度传播 35" }
+                  ]
+                },
+                {
+                  "name": "基于背景"
+                },
+                {
+                  "name": "基于机器学习 36"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "知识图谱应用",
+      "children": [
+        { "name": "语义搜索 37、38" },
+        {
+          "name": "知识问答",
+          "children": [
+            { "name": "深度学习问答 42~46" },
+            { "name": "知识库问答 39~41" }
+          ]
+        }
+      ]
+    }
+  ]
+}
